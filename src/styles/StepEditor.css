@@ -1,0 +1,74 @@
+.step-editor {
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.editor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.editor-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.editor-field {
+  margin-bottom: 15px;
+}
+
+.editor-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.editor-field input,
+.editor-field textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.action-rules {
+  margin-top: 30px;
+}
+
+.action-rule {
+  background-color: white;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.action-label {
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+.action-controls {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.action-controls label {
+  font-size: 0.8em;
+  color: #666;
+}
+
+.action-controls select,
+.action-controls input {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}

@@ -1,0 +1,28 @@
+.flow-diagram {
+  width: 100%;
+  height: 500px;
+}
+
+.flow-step {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: white;
+  cursor: pointer;
+  min-width: 200px;
+}
+
+.flow-step.selected {
+  border: 2px solid #2196F3;
+  box-shadow: 0 0 10px rgba(33, 150, 243, 0.3);
+}
+
+.step-subject {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.step-delay {
+  font-size: 0.8em;
+  color: #666;
+}

@@ -1,0 +1,59 @@
+.campaign-list-container {
+  padding: 20px;
+}
+
+.campaign-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.create-new-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.create-new-btn:hover {
+  background-color: #45a049;
+}
+
+.campaigns-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.campaign-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.campaign-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.campaign-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.campaign-card p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.campaign-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+  color: #888;
+}
